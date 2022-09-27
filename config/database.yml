@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
-  database: curdle_backend_production
-  username: curdle_backend
-  password: <%= ENV["CURDLE_BACKEND_DATABASE_PASSWORD"] %>
+    url: <%= ENV['DATABASE_URL'] %>
+  # database: curdle_backend_production
+  # username: curdle_backend
+  # password: <%= ENV["CURDLE_BACKEND_DATABASE_PASSWORD"] %>
