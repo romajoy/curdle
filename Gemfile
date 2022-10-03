@@ -46,5 +46,3 @@ group :development do
   # gem "spring"
 end
 
-#Removed Jbuilder and GroupProduction from FIles.
-
